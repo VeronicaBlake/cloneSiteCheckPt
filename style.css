@@ -1,0 +1,64 @@
+:root {
+  --light: rgb(239, 255, 243);
+  --dark: rgb(48, 56, 51);
+}
+
+.title {
+  font-size: 40pt;
+}
+
+.mainImage {
+  background-size: cover;
+  background-image: url(./pictures/laughingPeople.jpg);
+  background-position: 50% 60%;
+  text-shadow: 1px 1px 15px var(--dark);
+  min-height: 35vw;
+  color: var(--light);
+}
+
+.transparentBG {
+  background-color: rgba(61, 73, 65, 0.6);
+}
+
+.posRelative {
+  position: relative;
+}
+
+.posAbsolute {
+  position: absolute;
+  top: 2vw;
+  right: 20vw;
+  width: 30vw;
+  height: 15vw;
+  background-color: (var--light);
+  box-shadow: 1px 1px 15px var(--dark);
+}
+
+.listText {
+  color: var(--dark);
+  font-size: 14pt;
+}
+
+.mainButton {
+  border-radius: 40px;
+}
+
+.glow:hover {
+  box-shadow: 0 0 2em 1em #cde0d2;
+  cursor: pointer;
+}
+
+.smallRow {
+  min-height: 10vw;
+  color: var(--light);
+  background-color: #28a745;
+}
+
+.bigRow {
+  min-height: 27vw;
+  background-color: var(--light);
+}
+
+.shadow {
+  text-shadow: 1px 1px 15px var(--dark);
+}
