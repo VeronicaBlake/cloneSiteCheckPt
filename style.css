@@ -46,6 +46,28 @@
   border-radius: 5px;
 }
 
+.card {
+  max-width: 15vw;
+  max-height: 20vh;
+  background-color: (var--light);
+  box-shadow: 1px 1px 15px var(--dark);
+  border-radius: 5px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
+}
+
+.bigCard {
+  max-width: 15vw;
+  max-height: 25vh;
+  background-color: white;
+  box-shadow: 1px 1px 15px var(--dark);
+  border-radius: 5px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
+}
+
 .listText {
   color: var(--dark);
   font-size: 14pt;
@@ -64,6 +86,16 @@
   min-height: 15vw;
   color: var(--light);
   background-color: #28a745;
+}
+.smallRow2 {
+  min-height: 10vw;
+  color: var(--light);
+  background-color: #28a745;
+}
+
+.smallRow3 {
+  min-height: 18vw;
+  background-color: var(--dark);
 }
 
 .bigRow {
