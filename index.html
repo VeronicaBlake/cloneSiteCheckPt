@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>CloneSiteChpt1</title>
+</head>
+
+<body>
+    <header class="container-fluid sticky-top">
+        <nav class="navbar navbar-light bg-dark row">
+            <div class="col d-flex align-content-center">
+                <i class="fas fa-ghost fa-3x text-success glow"></i>
+                <h3 class="mx-2 my-2 text-light">GhostFree</h3>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row mainImage">
+            <span class="col-4 my-5 py-5 d-flex">
+                <form class="transparentBG p-4 mx-2">
+                    <h4>Contact Us</h4>
+                    <div class="form-group" id="name">
+                        <input type="name" class="form-control" aria-describedby="emailHelp"
+                            placeholder="Enter name">
+                    </div>
+                    <div class="form-group" id="email">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="row" id="phone">
+                        <div class="col-7">
+                            <input type="text" class="form-control" placeholder="📞Phone">
+                        </div>
+                        <div class="col-5">
+                            <input type="text" class="form-control" placeholder="ext.">
+                        </div>
+                    </div>
+                <div class="form-group mt-4">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="MESSAGE"></textarea>
+                </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="defaultCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Subscribe Me to the GhostFree Newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </span>
+            
+            <div class="col-5 d-flex align-self-center d-md-block offset-md-1">
+                <h1 class="title">Your home, <b>not their haunt.</b></h1>
+                <p>Getting rid of a ghostly infestation in your home can be difficult, but
+                    it doesn't have to be. Our team of trained ghost extraction experts
+                    will rid your home of any spirit, guaranteed. With over 300 successful exorcisms,
+                    GhostFree is the best spirit extraction service around, hands down. Reclaim your home and your life,
+                    contact us now.
+                </p>
+            </div>
+        </div>
+        <!-- TODO fill lorem text -->
+        <div class="row posRelative smallRow" id="pos-relative row">
+            <div class="col-4 offset-md-1 d-flex flex-column justify-content-center">
+                <h2>Our full extraction package has got you covered.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Perspiciatis, molestias.</p>
+            </div>
+            <!-- TODO replace icons and write card -->
+            <div class="col d-flex flex-column justify-content-around posAbsolute bg-light p-3">
+                <span class="d-flex flex-row ">
+                    <i class="fas fa-2x fa-ghost text-warning"></i>
+                    <p class="listText mx-2"> Hello world</p>
+                </span>
+                <span class="d-flex flex-row ">
+                    <i class="fas fa-2x fa-ghost text-warning"></i>
+                    <p class="listText mx-2"> Hello world</p>
+                </span>
+                <span class="d-flex flex-row ">
+                    <i class="fas fa-2x fa-ghost text-warning"></i>
+                    <p class="listText mx-2"> Hello world</p>
+                </span>
+                <span class="d-flex flex-row ">
+                    <i class="fas fa-2x fa-ghost text-warning"></i>
+                    <p class="listText mx-2"> Hello world</p>
+                </span>
+                <span class="d-flex flex-row ">
+                    <i class="fas fa-2x fa-ghost text-warning"></i>
+                    <p class="listText mx-2"> Hello world</p>
+                </span>
+            </div>
+        </div>
+        <div id="img row" class="row bg-light bigRow" >
+            <div class="col-4">
+                img
+            </div>
+            <div class="col">
+                
+            </div>
+            <div id="text with icon" class="col">
+                <i class="fas fa-shield-alt"></i>
+                <h1></h1>
+                <p></p>
+                <button class="btn btn-success"> More </button>
+            </div>
+            
+        </div>
+        <div class="row" id="reviews row">
+            
+        </div>
+        <!-- //TODO remove hr tag-->
+        <hr>  
+        <div class="row justify-content-center bg-success smallRow" id="last row">
+            <div class="col d-flex flex-column offset-md-1 pt-5 ">
+                    <h1>Ghosts Extracted Quickly and Humanely</h1>
+                    <p>We take pride in being the only ghost extraction 
+                    service on the market with a licensed medium on every extraction team.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row bg-light">
+            <div class="col text-center my-4">
+                Made with 👻 by Veronica Boo-lake, 2021
+            </div> 
+        </div>
+    </footer>
+</body>
+
+</html>
