@@ -6,6 +6,9 @@
 .title {
   font-size: 40pt;
 }
+/* .container-fluid {
+  min-width: 100vw;
+} */
 
 .mainImage {
   background-size: cover;
@@ -16,8 +19,16 @@
   color: var(--light);
 }
 
+.smallImg {
+  max-width: 40rem;
+  max-height: 34rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px var(--dark);
+}
+
 .transparentBG {
   background-color: rgba(61, 73, 65, 0.6);
+  border-radius: 5px;
 }
 
 .posRelative {
@@ -26,12 +37,13 @@
 
 .posAbsolute {
   position: absolute;
-  top: 2vw;
+  top: 5vw;
   right: 20vw;
   width: 30vw;
   height: 15vw;
   background-color: (var--light);
   box-shadow: 1px 1px 15px var(--dark);
+  border-radius: 5px;
 }
 
 .listText {
@@ -49,7 +61,7 @@
 }
 
 .smallRow {
-  min-height: 10vw;
+  min-height: 15vw;
   color: var(--light);
   background-color: #28a745;
 }
