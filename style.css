@@ -6,10 +6,15 @@
 .title {
   font-size: 40pt;
 }
-/* .container-fluid {
-  min-width: 100vw;
-} */
 
+.lineUp {
+  margin-bottom: -3rem;
+  border: none;
+}
+
+.d-hide {
+  color: var(--light);
+}
 .mainImage {
   background-size: cover;
   background-image: url(./pictures/laughingPeople.jpg);
@@ -20,8 +25,9 @@
 }
 
 .smallImg {
-  max-width: 40rem;
+  max-width: 20rem;
   max-height: 34rem;
+  margin-right: 3vw;
   border-radius: 5px;
   box-shadow: 1px 1px 15px var(--dark);
 }
@@ -37,10 +43,10 @@
 
 .posAbsolute {
   position: absolute;
-  top: 10rem;
+  top: 8vw;
   right: 20vw;
-  max-width: 30vw;
-  height: 30vw;
+  max-width: fit-content;
+  height: fit-content;
   background-color: (var--light);
   box-shadow: 1px 1px 15px var(--dark);
   border-radius: 5px;
@@ -113,8 +119,8 @@
   }
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1367px) {
   .makeRoom {
-    margin-top: 15rem;
+    margin-top: 25rem;
   }
 }

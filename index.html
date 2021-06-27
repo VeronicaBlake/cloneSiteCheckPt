@@ -19,9 +19,10 @@
     <header class="container-fluid sticky-top">
         <nav class="navbar navbar-light bg-dark row">
             <div class="col d-flex align-content-center">
-                <i class="fas fa-ghost fa-3x text-success glow"></i>
-                <h3 class="mx-2 my-2 text-light">GhostFree</h3>
+                <i class="fas fa-ghost fa-3x text-success "></i>
+                <h3 class="mx-2 my-2 text-light glow">GhostFree</h3>
             </div>
+            <!-- NOTE How to get the glow effect to not be weird on non-solid objects? -->
         </nav>
     </header>
 
@@ -68,14 +69,14 @@
             </div>
         </div>
         <!-- TODO fill lorem text -->
-        <div class="row posRelative smallRow" id="pos-relative row">
+        <div class="row posRelative order-2 order-md-1 smallRow" id="pos-relative row">
             <div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center makeRoom">
                 <h2>Our full extraction package has got you covered.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Perspiciatis, molestias.</p>
             </div>
             <!-- TODO replace icons and write card -->
-            <div class="offset-md-2 col d-flex flex-column justify-content-around posAbsolute bg-light p-3">
+            <div class="offset-md-2 order-1 order-md-2 col d-flex flex-column justify-content-around posAbsolute bg-light p-3">
                 <span class="d-flex flex-row ">
                     <i class="fas fa-2x fa-ghost text-warning"></i>
                     <p class="listText mx-2">Fast, flexible scheduling</p>
@@ -92,20 +93,21 @@
                     <i class="fas fa-2x fa-ghost text-warning"></i>
                     <p class="listText mx-2">Protective wards keep your home safe after the exctaction</p>
                 </span>
+                <span class="d-flex flex-row ">
+                    <i class="fas fa-2x fa-ghost text-warning"></i>
+                    <p class="listText mx-2">Protective wards keep your home safe after the exctaction</p>
+                </span>
             </div>
         </div>
         <div id="img row" class="row bg-light bigRow">
-            <div class="col-4 offset-md-1 py-4">
+            <div class="col-md-4 offset-md-3 offset-lg-1 pt-4 pb-md-4 px-4">
                 <img class="smallImg" src="./pictures/happyCooking.jpg" 
-                title="A mother and daughter cooking happily">
+                title="A mother and daughter baking">
             </div>
-            <!-- NOTE I'm not happy with the positioning of above pic -->
-            <div class="col-5 pt-5 mt-5">
-                <div class="row mt-5 pt-3">
-                    <div class="col-1 mr-2 d-flex align-self-center">
+            <div class="col-lg-5 pt-lg-5 mt-lg-5 flex-wrap">
+                <div class="row mt-5 pt-md-3">
+                    <div class="col mr-2 d-flex align-self-center">
                         <i class="fas fa-5x fa-shield-alt text-success"></i>
-                    </div>
-                    <div class="col">
                         <h2> We make getting back to a ghost-free home safe and easy,
                             so you can get back to what matters most.
                         </h2>
@@ -121,7 +123,7 @@
                         at nisi!</p>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row mb-4">
                     <div class="col d-flex flex-end"></div>
                     <button class="btn btn-success "> More </button>
                 </div>
