@@ -1,6 +1,11 @@
 :root {
   --light: rgb(239, 255, 243);
+  --lighter: rgb(91, 219, 119);
   --dark: rgb(48, 56, 51);
+}
+
+.custom-font {
+  font-family: "Satisfy", cursive;
 }
 
 .title {
@@ -66,12 +71,18 @@
 
 .bigCard {
   max-width: 15rem;
-  max-height: 12rem;
+  max-height: fit-content;
   background-color: white;
   box-shadow: 1px 1px 15px var(--dark);
   border-radius: 5px;
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.star {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px var(--lighter),
+    0 0 5px var(--lighter);
 }
 
 .listText {
@@ -84,8 +95,13 @@
 }
 
 .glow:hover {
-  box-shadow: 0 0 2em 1em #cde0d2;
+  text-shadow: 1px 1px 2px black, 0 0 25px var(--lighter),
+    0 0 5px var(--lighter);
   cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .smallRow {
@@ -157,5 +173,13 @@
   .smallMargin {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .cardMedia {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 }

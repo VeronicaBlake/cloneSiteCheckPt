@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CloneSiteChpt1</title>
 </head>
@@ -20,14 +23,15 @@
         <nav class="navbar navbar-light bg-dark row">
             <div class="col d-flex align-content-center">
                 <i class="fas fa-ghost fa-3x text-success "></i>
-                <h3 class="mx-2 my-2 text-light glow">GhostFree</h3>
+                <h3 class="mx-2 my-2 text-light glow">Ghost
+                   <b class="custom-font">Free</b></h3>
             </div>
             <!-- NOTE How to get the glow effect to not be weird on non-solid objects? -->
         </nav>
     </header>
 
     <main class="container-fluid">
-        <div id="mainImage" class="row mainImage hiddenMain">
+        <div id="top" class="row mainImage hiddenMain">
             <span class="col-md-4 my-5 py-5 d-flex offset-sm-1 offset-md-0">
                 <form class="transparentBG p-4 mx-2">
                     <h4>Contact Us</h4>
@@ -72,8 +76,9 @@
         <div class="row posRelative order-2 order-md-1 smallRow" id="pos-relative row">
             <div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center makeRoom">
                 <h2>Our full extraction package has got you covered.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, 
-                    consectetur adipisicing elit. Perspiciatis, molestias.</p>
+                <p>Take back your home with our full extraction package. 
+                    This includes a diagnostic test, extraction and protective wards. 
+                </p>
             </div>
             <!-- TODO replace icons and write card -->
             <div class="cardPosition offset-md-2 order-1 order-md-2 col d-flex flex-column justify-content-around posAbsolute bg-light p-3">
@@ -106,17 +111,14 @@
             </div>
             <div class="col-lg-5 pt-lg-5 mt-lg-5 flex-wrap">
                 <div class="row mt-5 flex-row">
-                    <div class="col-2 mr-2 d-flex flex-center text-center">
-                        <i class="fas fa-3x fa-shield-alt text-success order-1"></i>
-                        <div class="col">
-                            <h2 class="order-2"> We make getting back to a ghost-free home safe and easy,
-                                so you can get back to what matters most.
-                            </h2>
-                        </div>
+                    <div class="col d-flex flex-center">
+                        <h2 class="order-2"><i class="fas fa-3x fa-shield-alt text-success order-1"></i> We make getting back to a ghost-free home safe and easy,
+                            so you can get back to what matters most.
+                        </h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col px-0">
+                    <div class="col">
                         <p>Protection for every window, room and door.
                         Against poltergeists, djin, demons and more. Our 
                         extraction team rids your home of supernatural infestations, 
@@ -125,37 +127,38 @@
                 </div>
                 <div class="row mb-4">
                     <div class="col d-flex flex-end"></div>
-                    <button class="btn btn-success "> More </button>
+                    <button class="btn btn-success btn-lg mr-2"> Learn More </button>
                 </div>
             </div>
         </div>
             
         </div>
         <div id="reviews row" class="row bg-dark smallRow3 justify-content-around toCol">
-            <div class="col-md-4 card order-2 order-md-1">
+            <div class="col-md-4 card order-2 order-md-1 cardMedia">
                 <blockquote class="blockquote">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    <p class="mb-0">"Best paranormal extraction of 2021."</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">The New York Times</cite></footer>
                 </blockquote>
             </div>
             <div class="col-md-4 bigCard smallMargin order-1 order-md-2">
                 <blockquote class="blockquote">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    <p class="mb-0">
+                        <i class="fas fa-lg fa-star text-success d-flex justify-content-center star"></i>
+                        "Hands down, couldn't do it better myself. Ghostfree is the real deal."</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Bill Murray</cite></footer>
                 </blockquote>
             </div>
-            <div class="col-md-4 card order-3">
+            <div class="col-md-4 card order-3 cardMedia">
                 <blockquote class="blockquote">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    <p class="mb-0">"My house was haunted, and now it's not."</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Anonymous customer testimonial</cite></footer>
                 </blockquote>
             </div>
         </div>
         <div class="row justify-content-center bg-success smallRow2" id="last row">
             <div class="col d-flex flex-column offset-md-1 pt-5 ">
-                    <h1>Ghosts Extracted Quickly and Humanely</h1>
-                    <p>We take pride in being the only ghost extraction 
-                    service on the market with a licensed medium on every extraction team.</p>
+                    <h1>Start living with the living again.</h1>
+                    <button class="btn btn-light btn-lg mb-4"> <a href="#top">Send us an inquiry</a> </button>
             </div>
         </div>
     </main>
